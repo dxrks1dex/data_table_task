@@ -1,0 +1,51 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 20px;
+
+
+  .card {
+    background-color: var(--card-bg-color);
+    padding: 20px;
+    border-radius: 10px;
+    width: 226px;
+    height: 130px;
+
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+
+    p {
+      color: var(--card-text-color);
+    }
+    h3 {
+      color: var(--card-earnings-color);
+      margin-top: 10px;
+      font-size: 22px;
+      font-weight: 700;
+    }
+    div {
+      display: flex;
+      align-items: center;
+
+      p {
+        padding-right: 2px;
+      }
+    }
+  }
+}
+
+.searchResult {
+  padding: 20px 20px 0px 20px;
+
+  h3 {
+    color: #404D61;
+    font-weight: 500;
+    font-size: 40px;
+  }
+  p {
+    color: #757D8A;
+    font-weight: 400;
+    font-size: 16px;
+  }
+}

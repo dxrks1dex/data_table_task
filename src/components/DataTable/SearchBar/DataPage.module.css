@@ -1,0 +1,10 @@
+.dataPage {
+  display: flex;
+  flex-direction: column;
+}
+
+.hr {
+  width: 100%;
+}
+
+/*# sourceMappingURL=DataPage.module.css.map */

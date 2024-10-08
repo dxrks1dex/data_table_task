@@ -1,0 +1,61 @@
+.employeeTable {
+  width: 100%;
+
+  th, td {
+    padding: 15px 20px 15px 20px;
+
+    text-align: left;
+    cursor: pointer;
+  }
+
+  th {
+    position: relative;
+
+    font-size: 14px;
+    font-weight: 400;
+    color: #B1B1B1;
+  }
+
+  th:hover {
+    background-color: #e0e0e0;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  .userName {
+    display: flex;
+    align-items: center;
+
+    img {
+      object-fit: cover;
+      margin-right: 10px;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  .employeeStatus {
+    color: var(--user-status-color);
+  }
+}
+
+.editSection {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+
+  svg {
+    stroke: #757D8A;
+    transition: stroke 0.3s ease;
+
+    &:hover {
+      stroke: var(--user-operation-color);
+    }
+  }
+}
+
+
